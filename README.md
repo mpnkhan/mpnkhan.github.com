@@ -1,2 +1,1 @@
-# -mpnkhan.github.com
-Personal Site
+# Personal Site

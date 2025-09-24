@@ -59,7 +59,7 @@ const selectItems = document.querySelectorAll("[data-select-item]");
 const selectValue = document.querySelector("[data-selecct-value]");
 const filterBtn = document.querySelectorAll("[data-filter-btn]");
 
-console.log('select',selectItems, selectValue)
+// console.log('select',selectItems, selectValue)
 
 select.addEventListener("click", function () { elementToggleFunc(this); });
 
@@ -68,7 +68,7 @@ for (let i = 0; i < selectItems.length; i++) {
   selectItems[i].addEventListener("click", function () {
 
     let selectedValue = this.innerText.toLowerCase();
-    console.log('selectedValue',selectedValue)
+    // console.log('selectedValue',selectedValue)
     selectValue.innerText = this.innerText;
 
     elementToggleFunc(select);
